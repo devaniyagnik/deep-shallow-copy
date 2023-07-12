@@ -30,6 +30,7 @@ const secondobjectinputhandler = (e) =>{
       <div class="container mt-5">
       <div className="d-flex align-items-center justify-content-around">
         <form>
+        <h4 class="text-secondary">Firstobject</h4>
           <div class="form-group">
             <label htmlFor="firstName">First Name</label>
             <input
@@ -97,9 +98,10 @@ const secondobjectinputhandler = (e) =>{
         </h2>
         <p className="text-center w-50">Creates a new object with copied values, but references to other objects remain the same. Changes made to the copy will affect the original object</p>
 
-        <p className="text-center w-50">This is work first time then work but donot show here! <br /><span style={{color:"red"}}>output in console</span> </p>
+        <p className="text-center w-50 text-danger"><b> Note </b>: This is work first time then work but don't show here! output in console </p>
         </div>
         <form onSubmit={ShallowcopySubmit}>
+        <h4 class="text-secondary">Secondobject</h4>
           <div class="form-group">
             <label htmlFor="firstName">First Name</label>
             <input
