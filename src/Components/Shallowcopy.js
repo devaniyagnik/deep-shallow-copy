@@ -95,6 +95,8 @@ const secondobjectinputhandler = (e) =>{
         <h2 class="text-secondary">
         Shallow Copy
         </h2>
+        <p className="text-center w-50">Creates a new object with copied values, but references to other objects remain the same. Changes made to the copy will affect the original object</p>
+
         <p className="text-center w-50">This is work first time then work but donot show here! <br /><span style={{color:"red"}}>output in console</span> </p>
         </div>
         <form onSubmit={ShallowcopySubmit}>
