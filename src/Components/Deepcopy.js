@@ -20,7 +20,7 @@ const Deepcopy = () => {
   const ShallowcopySubmit = (e) => {
     e.preventDefault();
     setFirstobject(firstobject);
-    setFirstobject(secondobjectdeep);
+    setsecondobjectdeep(secondobjectdeep);
     console.log("firstobject", firstobject);
     console.log("secondobject", secondobjectdeep);
   };
